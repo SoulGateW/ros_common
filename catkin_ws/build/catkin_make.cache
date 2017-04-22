@@ -1,0 +1,2 @@
+dev_env:system_monitor:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/astreinw/ROS/ros_common/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/astreinw/ROS/ros_common/catkin_ws/install -G Unix Makefiles

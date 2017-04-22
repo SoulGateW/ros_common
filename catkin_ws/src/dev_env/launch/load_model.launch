@@ -1,0 +1,5 @@
+<launch>
+  <arg name="file"/>
+
+  <param name="robot_description" textfile="$(arg file)" />
+</launch>

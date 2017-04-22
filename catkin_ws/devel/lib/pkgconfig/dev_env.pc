@@ -1,0 +1,8 @@
+prefix=/home/astreinw/ROS/ros_common/catkin_ws/devel
+
+Name: dev_env
+Description: Description of dev_env
+Version: 0.0.5
+Cflags: 
+Libs: -L/home/astreinw/ROS/ros_common/catkin_ws/devel/lib 
+Requires: 

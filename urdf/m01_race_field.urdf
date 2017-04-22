@@ -1,0 +1,10 @@
+<robot name="tango_tablet_simplified">
+  <link name="def_tf">
+    <visual>
+      <geometry>
+          <mesh filename="file:///home/astreinw/ROS/ros_common/urdf/collada/m01_race_field.dae"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+  </link>
+</robot>

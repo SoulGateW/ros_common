@@ -1,0 +1,10 @@
+<launch>
+    <arg name="pkg_name" value="system_monitor"/>
+    <arg name="node_name" default="cpu_temp_node"/>
+    <arg name="type" default="int"/>
+    <arg name="rate" default="1.0"/>
+    <arg name="ns" default=""/>
+
+    <node ns="$(arg ns)" name="$(arg node_name)" pkg="$(arg pkg_name)" type="$(arg node_name).py" args="$(arg rate) $(arg type)">
+    </node>
+</launch>

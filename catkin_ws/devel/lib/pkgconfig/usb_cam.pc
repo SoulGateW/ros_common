@@ -1,0 +1,8 @@
+prefix=/home/astreinw/ROS/ros_common/catkin_ws/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.4
+Cflags: -I/home/astreinw/ROS/ros_common/catkin_ws/src/usb_cam/include
+Libs: -L/home/astreinw/ROS/ros_common/catkin_ws/devel/lib -lusb_cam
+Requires: 
